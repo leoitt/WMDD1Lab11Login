@@ -1,0 +1,13 @@
+[0m[[0m[33mwarn[0m] [0m[0m/home/wdd/webapps/playapps/WMDD1Lab11Login/app/views/login.scala.html:12:28: method globalError in class Form is deprecated: see corresponding Javadoc for more information.[0m
+[0m[[0m[33mwarn[0m] [0m[0m                @loginForm.globalError.message[0m
+[0m[[0m[33mwarn[0m] [0m[0m                           ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mone warning found[0m
+[0m[[0m[31merror[0m] [0m[0m/home/wdd/webapps/playapps/WMDD1Lab11Login/app/controllers/HomeController.java:206:1: cannot find symbol[0m
+[0m[[0m[31merror[0m] [0m[0m  symbol:   method products(int)[0m
+[0m[[0m[31merror[0m] [0m[0m  location: variable HomeController of type controllers.ReverseHomeController[0m
+[0m[[0m[31merror[0m] [0m[0m        return redirect(controllers.routes.HomeController.products(0));[0m
+[0m[[0m[31merror[0m] [0m[0m/home/wdd/webapps/playapps/WMDD1Lab11Login/app/controllers/LoginController.java:54:1: method render in class views.html.login cannot be applied to given types;[0m
+[0m[[0m[31merror[0m] [0m[0m  required: play.data.Form<models.users.Login>,models.users.User[0m
+[0m[[0m[31merror[0m] [0m[0m  found: play.data.Form<models.users.Login>[0m
+[0m[[0m[31merror[0m] [0m[0m  reason: actual and formal argument lists differ in length[0m
+[0m[[0m[31merror[0m] [0m[0m            return badRequest(login.render(loginForm));[0m
